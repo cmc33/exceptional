@@ -10,7 +10,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   </head>
   <body>
+
+    <div id="social">
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">Google Plus</a>
+    </div>
     <header>
+    
+    <div class="wrapper clearfix">
     
     <div id="logo">
     <h1>Exceptional</h1>
@@ -22,10 +30,12 @@
     <nav>
     <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings">Listings</a><a href="market-report.html">Market Report</a><a href="contact.html">Contact</a><a href="http://hud.gov" target="_blank">H.U.D.</a>
     </nav>
-
+    </div><!-- .wrapper-->
     </header>
-
-    <section id="featured-property">
+    
+    <div class="wrapper clearfix">
+    
+    <section id="featured-property" class= "col-3 first">
         <figure>
     <img src="images/intro-pic.jpg" alt="A beautiful living room." title= "Welcome to exceptional realty group">
     <figcaption>345 Carl Street Apt 12 Carrol rd Brooklyn NY. Photo by Denise Richards</figcaption>
@@ -48,7 +58,12 @@
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
     
-    <section id="promotional">
+    <section id="news" class="col-1">
+        <h3>Company News</h3>
+        <p>fsdkflmdflkmfldfmkdfmskfslkfmsldfmkdmsklmdflsdmslfsdkfmsldkfmkmfksldmf</p>
+    </section>
+    
+    <section id="promotional" class="col-2 first">
     <figure>
     <video controls>
         <source src="videos/real-Estate.mp4" type="video/mp4">
@@ -58,6 +73,7 @@
     <figcaption>Exceptional Realty Group Promtional Video- Source: archive.org</figcaption>
     </figure>
     </section>
+  </div><!--wrapper-->
   <footer>
     &copy; 2014 Exceptional realty. All Rights Reserved.
   </footer>
